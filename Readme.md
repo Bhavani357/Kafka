@@ -1,7 +1,8 @@
 # Kafka: is a Event driven architecture
 
 #### Source: `https://www.youtube.com/watch?v=AlQfpG10vAc&list=PLxoOrmZMsAWxXBF8h_TPqYJNsh3x4GyO4&index=4`,
-
+* Kafkajs documentation: `https://kafka.js.org/docs/producing`
+* Kafka working visualization:  `https://softwaremill.com/kafka-visualisation/`
 
 ## Terminology and Topics
 
