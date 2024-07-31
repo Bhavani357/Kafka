@@ -1,0 +1,27 @@
+# Send requests using postman or thunderclient
+
+POST http://localhost:8080/kafka/create_topic
+
+{
+    "topicName": "hello_world",
+    "noOfPartition": 4
+}
+###
+
+
+POST http://localhost:8080/kafka/publish
+
+{
+    "topicName": "hello_world",
+    "message": {
+        "key": "key_1",
+        "value": "Greeting from bhavani"
+    }
+}
+
+###
+POST http://localhost:8080/kafka/consume
+
+{
+    "topicName": "hello_world",
+}

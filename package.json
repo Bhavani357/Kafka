@@ -1,0 +1,19 @@
+{
+  "name": "kafkapractice",
+  "version": "1.0.0",
+  "description": "- **Kafka is just like a messaging system**\r - **It is a distributed platform/application**\r   - **In production** evironment kafka is referred as kafka cluster.\r   - A cluster is made up of more than one kafka server\r   - Each kafka server is referred as **Broker**\r - **It is a fault-tolerant**",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "SET debug=node-kafka:* && nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4"
+  }
+}
